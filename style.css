@@ -2,6 +2,10 @@ body{
     background: rgb(67, 67, 67);
 }
 
+.hyperlink{
+    text-align:center;
+    padding: 10px;
+}
 
 .principal{
     color: rgb(0, 0, 0);

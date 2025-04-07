@@ -1,0 +1,19 @@
+li{
+    padding:10px;
+    font-size: 30px;
+    text-align:center;
+}
+
+.produtosimg{
+    padding:20px;
+    padding-left: 37.5%;
+    width: 25%;
+    height:100;
+}
+
+.caixa{
+    background: rgb(67, 67,67);
+    position:relative;
+    width:100%;
+    margin: 0 auto;
+}
