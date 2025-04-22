@@ -12,10 +12,6 @@ nav{
     top: 110px;
     right: 0;
 }
-nav a:hover{
-    color: #c78c19;
-    text-decoration: underline;
-}
 nav li{
     display: inline;
     margin: 0 0 0 15px;
@@ -54,4 +50,11 @@ nav a{
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+.produtos li:hover{
+    border-color: #c78c19;
 }
