@@ -95,6 +95,12 @@ form input{
 .input-padrao{
     width:250px;
 }
+.input-text{
+    width:450px;
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+}
 .input-btn{
     width: 90px;
 }

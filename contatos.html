@@ -35,7 +35,14 @@
         <input type="text" id="telefone" class="input-padrao">
         
         <label for="mensagem">Deixe sua opinião</label>
-        <input type="text" cols="70" rows="10" id="MSGM" class="input-padrao">
+        <textarea id="mensagem" class="input-text" rows="10" cols="70"></textarea>
+
+        <div>
+            <p> Como prefere o nosso contato?</p>
+            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> </label>
+            <label for="radio-telefone"><input type="radio" name="telefone" value="telefone" id="radio-email"> </label>
+            <label for="radio-whatsapp"><input type="radio" name="whatsapp" value="whatsapp" id="radio-email"> </label>
+        </div>
 
         <input type="submit" value="Enviar" class="input-btn">
     </form>
