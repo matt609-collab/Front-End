@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="caixa">
-          <h1> <img src="img/logo.png" alt="logo"></h1>
+          <h1> <img src="img/logo.png" alt="logo-da-barbearia-alura"></h1>
             <nav>
                 <ul>
                     <li> <a href="index.html">Home</a></li>
@@ -26,22 +26,22 @@
 
     <form>
         <label for="nomesobrenome">Nome e sobrenome:</label>
-        <input type="text" id="nomesobrenome"class="input-padrao">
+        <input type="nome" id="nomesobrenome"class="input-padrao" required placeholder="Nome e sobrenome">
 
         <label for="email">Seu Email:</label>
-        <input type="text" id="email"class="input-padrao">
+        <input type="email" id="email"class="input-padrao" required placeholder="nome@gmail.com">
 
         <label for="telefone">Número de celular:</label>
-        <input type="text" id="telefone" class="input-padrao">
+        <input type="tel" id="telefone" class="input-padrao" required placeholder="00-00000-0000">
         
         <label for="mensagem">Deixe sua opinião</label>
-        <textarea id="mensagem" class="input-text" rows="10" cols="70"></textarea>
+        <textarea id="mensagem" class="input-text" rows="10" cols="70" required placeholder="Digite sua opinião..."></textarea>
 
         <div class="atendimento">
             <p> Como prefere o nosso contato?</p>
-            <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email"> Email</label>
-            <label for="radio-telefone"> <input type="radio" name="telefone" value="telefone" id="radio-email"> Telefone</label>
-            <label for="radio-whatsapp"> <input type="radio" name="whatsapp" value="whatsapp" id="radio-email"> Whatsapp</label>
+            <label for="radio"> <input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+            <label for="radio"> <input type="radio" name="telefone" value="telefone" id="radio-email"> Telefone</label>
+            <label for="radio"> <input type="radio" name="whatsapp" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
             <br>
         </div>
 
@@ -57,13 +57,13 @@
         </div>
         <p>Deseja receber nossas notícias por email?</p>
         <label class="checkbox"> <input type="checkbox"></label>
-        <input type="submit" value="Enviar" class="input-btn">
+        <input type="submit" value="Enviar" class="input-btn" checked>
     </form>
 
 </main>
 
 <footer>
-    <img src="img/logo-branco.png" alt="logo2">
+    <img src="img/logo-branco.png" alt="logo-da-barbearia-alura-branco">
     <p class="copyright">Copyright Barbearia Alura 2025 &copy;</p>
 </footer>
 
