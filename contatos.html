@@ -37,13 +37,26 @@
         <label for="mensagem">Deixe sua opinião</label>
         <textarea id="mensagem" class="input-text" rows="10" cols="70"></textarea>
 
-        <div>
+        <div class="atendimento">
             <p> Como prefere o nosso contato?</p>
-            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> </label>
-            <label for="radio-telefone"><input type="radio" name="telefone" value="telefone" id="radio-email"> </label>
-            <label for="radio-whatsapp"><input type="radio" name="whatsapp" value="whatsapp" id="radio-email"> </label>
+            <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+            <label for="radio-telefone"> <input type="radio" name="telefone" value="telefone" id="radio-email"> Telefone</label>
+            <label for="radio-whatsapp"> <input type="radio" name="whatsapp" value="whatsapp" id="radio-email"> Whatsapp</label>
+            <br>
         </div>
 
+        <div class="atendimento-horário">
+            <p> Qual horário de atendimento você prefere?
+                <select>
+                    <option>-----</option>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                    <br>
+                </select>
+        </div>
+        <p>Deseja receber nossas notícias por email?</p>
+        <label class="checkbox"> <input type="checkbox"></label>
         <input type="submit" value="Enviar" class="input-btn">
     </form>
 

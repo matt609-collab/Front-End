@@ -82,7 +82,7 @@ form{
     margin: 40px 0;
 
 }
-form label{
+form label, form p{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -94,6 +94,9 @@ form input{
 }
 .input-padrao{
     width:250px;
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
 }
 .input-text{
     width:450px;
@@ -103,4 +106,7 @@ form input{
 }
 .input-btn{
     width: 90px;
+}
+.atendimento{
+    padding: 15px;
 }
