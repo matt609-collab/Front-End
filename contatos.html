@@ -40,8 +40,8 @@
         <div class="atendimento">
             <p> Como prefere o nosso contato?</p>
             <label for="radio"> <input type="radio" name="contato" value="email" id="radio-email"> Email</label>
-            <label for="radio"> <input type="radio" name="telefone" value="telefone" id="radio-email"> Telefone</label>
-            <label for="radio"> <input type="radio" name="whatsapp" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
+            <label for="radio"> <input type="radio" name="contato" value="telefone" id="radio-email"> Telefone</label>
+            <label for="radio"> <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
             <br>
         </div>
 
@@ -55,9 +55,11 @@
                     <br>
                 </select>
         </div>
+        <div id="noticias-checkbox">
         <p>Deseja receber nossas notícias por email?</p>
-        <label class="checkbox"> <input type="checkbox"></label>
-        <input type="submit" value="Enviar" class="input-btn" checked>
+        <label class="checkbox"> <input type="checkbox" checked></label>
+        <input type="submit" value="Enviar" class="input-btn">
+        </div>
     </form>
 
 </main>
