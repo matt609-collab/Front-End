@@ -104,6 +104,9 @@ form input{
     margin: 0 0 20px;
     padding: 10px 25px;
 }
+.radio-input{
+    display: inline-block;
+}
 .input-btn{
     width: 90px;
     padding: 15px;
@@ -116,8 +119,17 @@ form input{
     transition: 1s all;
     cursor: pointer;
 }
+.input-btn:hover{
+    transform: scale(1.1);
+}
+.type-info{
+    padding-bottom: 25px;
+}
 .atendimento{
-    padding: 15px;
+    padding-bottom: 25px;
+}
+.atendimento p{
+    padding-bottom: 20px;
 }
 #noticias-checkbox{
     padding-top: 25px;
