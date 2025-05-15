@@ -107,6 +107,18 @@ form input{
 .radio-input{
     display: inline-block;
 }
+.type-info{
+    padding-bottom: 25px;
+}
+.atendimento{
+    padding-bottom: 25px;
+}
+.atendimento p{
+    padding-bottom: 20px;
+}
+#noticias-checkbox{
+    padding-top: 25px;
+}
 .input-btn{
     width: 90px;
     padding: 15px;
@@ -122,15 +134,15 @@ form input{
 .input-btn:hover{
     transform: scale(1.1);
 }
-.type-info{
-    padding-bottom: 25px;
+table{
+    margin: 20px 0 40px;
 }
-.atendimento{
-    padding-bottom: 25px;
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
 }
-.atendimento p{
-    padding-bottom: 20px;
-}
-#noticias-checkbox{
-    padding-top: 25px;
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
