@@ -5,9 +5,17 @@ body{
 .principal{
     background: #cccccc;
     padding: 30px;
+    margin: 0 0 1em;
+    clear: left;
 }
 
-#banner {
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#banner{
     width: 100%;
 }
 
