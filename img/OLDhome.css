@@ -39,18 +39,9 @@ em strong{
     font-style: italic;
 }
 
-.beneficios{
-    background: #ffffff;
-    padding: 20px;
-    font-size: 18px;
-}
+
 h2{
     text-align: center;
 }
 
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
+
