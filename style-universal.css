@@ -1,3 +1,7 @@
+/* SHARED STUFF */
+main{
+    font-family: 'Montserrat', 'sans-serif';
+}
 header{
     background: #bbbbbb;
     padding: 20px 0;
@@ -7,6 +11,49 @@ header{
     width: 940px;
     margin: 0 auto;
 }
+footer{
+    text-align: center;
+    background-color: #cccccc;
+    padding: 40px;
+}
+.copyright{
+    color:#ffffff;
+    font-size: 13;
+    margin: 20px 0 0;
+}
+nav a:hover{
+    color: #707070;
+    /* font-size: ; */
+}
+/* END OF SHARED STUFF */
+
+
+/* MAIN PAGE STUFF */
+
+.principal p{
+    margin: 0 0 1em;
+}
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+.utensilios{
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagembeneficios{
+    width: 60%;
+}
+
+/* END OF MAIN PAGE STUFF */
+
+
+/* PRODUTOS.HTML STUFF */
+
 nav{
     position: absolute;
     top: 110px;
@@ -51,10 +98,6 @@ nav a{
     font-weight: bold;
     margin-top: 10px;
 }
-nav a:hover{
-    color: #c78c19;
-    text-decoration: underline;
-}
 .produtos li:hover{
     border-color: #c78c19;
 }
@@ -63,36 +106,4 @@ nav a:hover{
 }
 .produtos li:hover h2{
     font-size: 42px;
-}
-footer{
-    text-align: center;
-    background-color: #cccccc;
-    padding: 40px;
-}
-.copyright{
-    color:#ffffff;
-    font-size: 13;
-    margin: 20px 0 0;
-}
-
-.principal p{
-    margin: 0 0 1em;
-}
-
-.principal strong{
-    font-weight: bold;
-}
-
-.principal em{
-    font-style: italic;
-}
-
-.utensilios{
-    width: 150px;
-    float: left;
-    margin: 0 20px 20px 0;
-}
-
-.imagembeneficios{
-    width: 60%;
 }
