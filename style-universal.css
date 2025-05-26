@@ -4,13 +4,11 @@ html{
 }
 header{
     background: #bbbbbb;
-    padding: 20px 0;
 }
 .caixa{
     font-family: 'Montserrat', 'sans-serif';
     position: relative;
-    width: 940px;
-    margin: 0 auto;
+    width: 100%;
     display: inline;
 }
 footer{
@@ -23,24 +21,28 @@ footer{
     margin: 20px 0 0;
 }
 
-nav{
-    position: absolute;
-    top: 110px;
-    right: 0;
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
 }
-nav a{
-    text-transform: uppercase;
-    color:#000000;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
 }
-nav a:hover{
-    color: #707070;
-    font-size: 25px;
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
 }
-.caixa li{
-    padding-bottom: 5px;
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
 }
 
 /* END OF SHARED STUFF */
@@ -86,6 +88,10 @@ nav a:hover{
     background: #ffffff;
     padding-top: 50px;
 }
+.mapaimagem{
+    width: 50%;
+    margin-left: 25%;
+}
 .titulobeneficios{
     font-size: 30px;
     font-weight: bold;
@@ -109,7 +115,23 @@ li{
 }
 .linkprodutos{
     text-align: center;
-    display: inline-block;
+}
+.mapa{
+    background: #ffffff;
+    padding-top: 50px;
+}
+.mapa h3{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+.mapa p{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
 }
 
 /* END OF MAIN PAGE STUFF */
