@@ -109,9 +109,13 @@ li{
     text-align: center;
 }
 .imagembeneficios{
-    width: 500px;
+    width: 560px;
+    height: 315px;
     margin-top: 35px;
     margin-left: 20px;
+}
+.videoyt{
+    padding-left: 50px
 }
 .linkprodutos{
     text-align: center;
